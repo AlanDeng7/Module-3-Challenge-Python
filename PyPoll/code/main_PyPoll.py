@@ -42,7 +42,7 @@ print(f"Winner: {candidate[candidatevote.index(max(candidatevote))]}")
 
 
 #write putput to txt file 
-output_path = os.path.join('PyPoll', 'Resources', 'result.txt')
+output_path = os.path.join('PyPoll', 'Analysis', 'result.txt')
 
 with open(output_path, "w") as f:
     csvwriter = csv.writer(f,delimiter = ' ')

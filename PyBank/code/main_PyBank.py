@@ -54,7 +54,7 @@ print(f"Greatest Decrease in Profits: {month[greatest_dec_index]} (${greatest_de
 
 
 #write putput to txt file 
-output_path = os.path.join('PyBank', 'Resources', 'result.txt')
+output_path = os.path.join('PyBank', 'Analysis', 'result.txt')
 
 with open(output_path, "w") as f:
     csvwriter = csv.writer(f,delimiter = ' ')
